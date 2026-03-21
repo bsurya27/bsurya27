@@ -8,7 +8,7 @@ My work spans the full stack -- finetuning vision-language models, building eval
 
 ## what I've built
 
-**[On The Porch](https://github.com/bsurya27/on-the-porch)** -- Multimodal civic intelligence chatbot for Dorchester, Boston  
+**[On The Porch](https://github.com/Public-Computing-Lab/Spark25-Community-Sentiment)** -- [Multimodal civic intelligence agent](https://boston.ourcommunity.is/experimenting/9/) for Dorchester, Boston  
 Hybrid SQL + RAG with a 3-mode query router (95% routing accuracy) and retrieval caching. Cut response latency from 15-20s to 2-3s.  
 `LangChain` `Chroma` `MySQL` `Gemini` `FastAPI`
 
