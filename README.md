@@ -32,8 +32,8 @@ Natural language booking requests routed into structured backend ops, with an ad
 
 ## currently building
 
-**AI Research Curator** -- Two-agent system that scrapes AI/ML content daily, scores it against a learned preference model, and delivers a personalized newsletter. A second agent runs a chat interface, pulls preference signals from your conversations, and feeds them back to update the scoring layer. The loop keeps tightening over time.  
-`AWS EC2` `EventBridge` `S3` `Streamlit` `Claude` `sentence-transformers`
+**[AI Research Curator](https://github.com/bsurya27/ai-research-curator)** -- Two-agent system that learns what you care about and gets better at it every day. One agent runs daily, scrapes the web, scores content against a preference vector in embedding space, and writes you a briefing. The other captures how you engage with that briefing and feeds signals back to drift the vector. Cold start to personalized in a few cycles.  
+`AWS EC2` `EventBridge` `S3` `ChromaDB` `OpenAI` `Anthropic` `Streamlit` `FastAPI`
 
 ---
 
